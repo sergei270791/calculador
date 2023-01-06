@@ -43,8 +43,7 @@ pipeline {
 		}
 		stage("Docker build") {
 			steps {
-				sh "apt-get update"
-				sh "apt-get update
+				sh "apt-get update \
 					apt-get install \
 					    ca-certificates \
 					    curl \
