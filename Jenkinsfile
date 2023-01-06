@@ -43,6 +43,7 @@ pipeline {
 		}
 		stage("Docker build") {
 			steps {
+				sh "usermod -aG docker sergei270791"
 				sh "docker build -t sergei1222/calculador ."
 			}
 		}
