@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Calculador" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-11T20:38:18" hostname="sergei1222" time="0.413">
+  <properties/>
+  <testcase name="Sum two numbers" classname="Calculador" time="0.413"/>
+  <system-out><![CDATA[15:38:18.741 [Test worker] DEBUG org.springframework.web.client.RestTemplate - HTTP GET http://localhost:8765/sum?a=1&b=2
+15:38:18.747 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Accept=[text/plain, application/json, application/*+json, */*]
+15:38:18.803 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Response 200 OK
+15:38:18.805 [Test worker] DEBUG org.springframework.web.client.RestTemplate - Reading to [java.lang.String] as "text/plain;charset=UTF-8"
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
